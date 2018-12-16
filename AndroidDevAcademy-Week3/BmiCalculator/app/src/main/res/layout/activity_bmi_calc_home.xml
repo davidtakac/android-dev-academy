@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BmiCalcHome"
+
+    android:background="@color/color_mainBackground">
+
+    <TextView
+        android:id="@+id/textview_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_textview_heightInM"
+        style="@style/NormalTextTheme"/>
+    
+    <EditText
+        android:id="@+id/edittext_height"
+        android:layout_width="@dimen/dimen_edittext_width"
+        android:layout_height="@dimen/dimen_edittext_height"
+        android:layout_below="@id/textview_height"
+        android:hint="@string/string_edittext_metersHint"
+
+        android:inputType="numberDecimal"
+
+        style="@style/EditTextTheme"/>
+
+    <TextView
+        android:id="@+id/textview_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_height"
+        android:layout_marginTop="15dp"
+        android:text="@string/string_textview_weightInKg"
+        style="@style/NormalTextTheme"/>
+
+    <EditText
+        android:id="@+id/edittext_weight"
+        android:layout_width="@dimen/dimen_edittext_width"
+        android:layout_height="@dimen/dimen_edittext_height"
+        android:layout_below="@id/textview_weight"
+        android:hint="@string/string_edittext_weightHint"
+
+        android:inputType="numberDecimal"
+
+        style="@style/EditTextTheme"/>
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_weight"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:text="@string/button_calctext"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/imageview_silhouette"
+        android:layout_width="@dimen/dimen_imageview_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_calculate"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/textview_numericResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_calculate"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/imageview_silhouette"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="@dimen/endmargin_textview_results"
+        android:textAlignment="viewEnd"
+
+        android:textSize="20sp"
+        style="@style/NormalTextTheme"/>
+
+    <TextView
+        android:id="@+id/textview_titleResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_numericResult"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/imageview_silhouette"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/endmargin_textview_results"
+        android:textAlignment="viewEnd"
+
+        android:textSize="20sp"
+        style="@style/NormalTextTheme"
+        />
+
+    <TextView
+        android:id="@+id/textview_descriptionResult"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textview_titleResult"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/imageview_silhouette"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/endmargin_textview_results"
+        android:textAlignment="viewEnd"
+
+        android:textSize="15sp"
+        style="@style/NormalTextTheme"/>
+
+
+
+</RelativeLayout>

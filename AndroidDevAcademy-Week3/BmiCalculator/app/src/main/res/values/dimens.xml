@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_edittext_width">150dp</dimen>
+    <dimen name="dimen_edittext_height">45dp</dimen>
+    <dimen name="endmargin_textview_results">10dp</dimen>
+    <dimen name="dimen_imageview_width">160dp</dimen>
+    <dimen name="dimen_normalTextSize">17sp</dimen>
+</resources>

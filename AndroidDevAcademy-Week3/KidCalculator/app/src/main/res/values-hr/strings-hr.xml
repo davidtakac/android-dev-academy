@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kid Calculator</string>
+    <string name="app_introduction">Unesi dva broja i odaberi operaciju. Rezultat će biti prikazan ispod.</string>
+    <string name="result_noinputyet">Udri!</string>
+    <string name="sum_text">+</string>
+    <string name="subtract_text">-</string>
+    <string name="divide_text">/</string>
+    <string name="multiply_text">X</string>
+    <string name="edittext_emptyerror">Prazno polje! Unesite broj.</string>
+    <string name="edittext_dividebyzeroerror">Ne možete dijeliti s nulom.</string>
+</resources>

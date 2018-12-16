@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeButtonText">20sp</dimen>
+    <dimen name="sizeNormalText">15sp</dimen>
+    <dimen name="sizeLeftMargin">10dp</dimen>
+    <dimen name="sizeRightMargin">10dp</dimen>
+    <dimen name="sizeTopMargin">10dp</dimen>
+    <dimen name="sizeLargeText">25sp</dimen>
+</resources>

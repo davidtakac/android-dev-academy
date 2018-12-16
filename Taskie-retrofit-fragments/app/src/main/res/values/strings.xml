@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Taskie</string>
+    <string name="newTask_title_hint">Enter title</string>
+    <string name="newTask_description_hint">Enter description</string>
+    <string name="string_togglebtn_favorited">Favorited</string>
+    <string name="string_togglebtn_favorite">Favorite</string>
+    <string name="errormsg_networkError">Network error! Please try again.</string>
+    <string name="errormsg_noConnection">No internet connection! Try again later.</string>
+</resources>

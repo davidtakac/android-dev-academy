@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Resume 7</string>
+    <string name="text_header">David Takač\nFERIT\nAndroid enthusiast</string>
+    <string name="text_btn_bio">Bio</string>
+    <string name="text_btn_work">Work</string>
+    <string name="text_btn_education">Education</string>
+    <string name="text_btn_projects">Projects</string>
+    <string name="text_btn_contact">Contact</string>
+    <string name="link_githubProjects"><a href="https://github.com/davidtakac">Click to view my projects</a></string>
+
+    <string name="text_startup">Press a button!</string>
+    <string name="text_bio">
+        I\'m a 21 year old computer engineering student from Croatia.\n
+        I grew up in Osijek, Croatia. Ever since I was a kid, I had an interest
+        in computers and tech in general. Two years ago, I enrolled in the Faculty
+        of Electrical Engineering, Computer Science and Information Technology Osijek.\n
+        Since then, I realized I wanted to devote my time to Android Development and well, here we are.
+    </string>
+
+    <string name="text_work">
+        The first \"job\" I worked at was provided to me by the Erasmus+ student mobility programme.
+        We worked at a warehouse in Ireland and although it wasn\'t exactly a computer science related job, it was
+        still a valuable experience because I learned teamwork and it helped with my English.\n\n
+        Since then, I worked via the Student Union at my college on various side-jobs. No programming related work
+        until now, but I\'m hoping this academy will change that.
+    </string>
+
+    <string name="text_education">
+        I graduated from the Electrical Engineering and Traffic School Osijek in the Electrical Engineering vocational course.\n
+        After that, I enrolled in the Faculty of Electrical Engineering, Computer Science and Information Technology Osijek.\n
+        Right now, I\'m attending Osijek Software City's Android Dev Academy.
+    </string>
+
+    <string name="text_contact">
+        Business email: david.takac@etfos.hr\n
+        Phone number: +385 91 123 4567\n
+        Smoke signals: one long puff of smoke and three small ones.\n
+    </string>
+
+</resources>

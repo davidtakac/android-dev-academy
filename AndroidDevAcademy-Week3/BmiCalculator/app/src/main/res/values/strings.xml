@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="string_edittext_metersHint">meters</string>
+    <string name="string_textview_heightInM">Enter your height in meters:</string>
+    <string name="string_textview_weightInKg">Enter your weight in kilograms:</string>
+    <string name="string_edittext_weightHint">kilograms</string>
+
+    <string name="string_error_emptyinput">Field cannot be left blank.</string>
+    <string name="string_error_illegalheight">Please enter height from 1.3m to 2.5m</string>
+    <string name="string_error_illegalweight">Please enter weight from 40kg to 350kg.</string>
+
+    <string name="string_bmiTitle_under18_5">Underweight</string>
+    <string name="string_bmiTitle_under24_9">Normal weight</string>
+    <string name="string_bmiTitle_under29_9">Overweight</string>
+    <string name="string_bmiTitle_under34_9">Obese</string>
+
+    <string name="string_bmiDesc_under18_5">
+        People with a BMI of under 18.5 are considered underweight.
+        Being underweight is associated with certain medical conditions, including diabetes, hyperthyroidism, cancer, or tuberculosis.
+    </string>
+
+    <string name="string_bmiDesc_under24_9">
+        People with a BMI between 18.5 and 24.9 are considered to be of normal weight.
+        Good job!
+    </string>
+
+    <string name="string_bmiDesc_under29_9">
+        People with a BMI between 24.9 and 29.9 are considered to be overweight.
+        Being overweight has been identified as a cause of cancer. Psychological well-being is also at risk in the overweight individual due to social discrimination.
+    </string>
+
+    <string name="string_bmiDesc_under34_9">
+        People with a BMI between 29.9 and 34.9 are considered to be obese.
+        Obesity is mostly preventable through a combination of social changes and personal choices.
+        Changes to diet and exercising are the main treatments. Diet quality can be improved by reducing the
+        consumption of energy-dense foods, such as those high in fat or sugars, and by increasing the intake of dietary fiber.
+    </string>
+
+    <string name="button_calctext">Calculate</string>
+
+</resources>

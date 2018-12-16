@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Taskie</string>
+    <string name="newTask_title_hint">Title</string>
+    <string name="newTask_description_hint">Description</string>
+    <string name="newTask_deadline_text">Choose a deadline:</string>
+    <string name="errormsg_edittext_blankInput">Field cannot be left blank</string>
+    <string name="errormsg_calendarview_invalidDeadline">Deadline must be today or later</string>
+    <string name="string_togglebtn_completed">Completed</string>
+    <string name="string_togglebtn_notcompleted">Complete</string>
+    <string name="string_menu_sortByPriority">Sort by priority</string>
+    <string name="string_menu_showCompleted">Show completed</string>
+    <string name="string_menu_priorityFilter">Filter by priority…</string>
+    <string name="string_priorityFilterMenu_all">All priorities</string>
+    <string name="string_priorityFilterMenu_low">Low</string>
+    <string name="string_priorityFilterMenu_med">Medium</string>
+    <string name="string_priorityFilterMenu_high">High</string>
+    <string name="string_deleteTaskFragment_deleteTask">Delete task?</string>
+    <string name="string_delTaskDialogFrag_delete">Yes</string>
+    <string name="string_delTaskDialogFrag_cancel">Cancel</string>
+    <string name="newTask_category_hint">Category</string>
+    <string name="newTask_button_deleteCategory">Delete category</string>
+    <string name="newTask_addCategoriesBtn_text">Categories</string>
+    <string name="categories_hint_addCategory">Add a new category</string>
+    <string name="categories_btntext_addCategory">add</string>
+    <string name="categories_btntext_saveCategories">Save</string>
+    <string name="errormsg_categories_noCategoriesSelected">Select a category</string>
+</resources>

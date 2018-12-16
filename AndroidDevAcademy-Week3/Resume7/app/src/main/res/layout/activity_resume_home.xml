@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResumeHome"
+    android:orientation="vertical">
+
+    <!-- Defines the header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:background="@color/color_header"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/HeaderTextTheme"
+            android:text="@string/text_header"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/myface"
+            android:layout_alignParentEnd="true"
+            app:civ_border_color="@color/color_white"
+            app:civ_border_width="2dp"
+            style="@style/ProfilePictureTheme"/>
+    </RelativeLayout>
+
+    <!-- Defines buttons and content display -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- Defines buttons -->
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/color_menuBackground">
+
+            <Button
+                android:id="@+id/button_bio"
+                android:layout_width="match_parent"
+                android:text="@string/text_btn_bio"
+                android:layout_marginTop="14dp"
+                style="@style/ButtonTheme"/>
+            <Button
+                android:id="@+id/button_work"
+                android:layout_width="match_parent"
+                android:text="@string/text_btn_work"
+                style="@style/ButtonTheme"/>
+            <Button
+                android:id="@+id/button_education"
+                android:layout_width="match_parent"
+                android:text="@string/text_btn_education"
+                style="@style/ButtonTheme"/>
+            <Button
+                android:id="@+id/button_projects"
+                android:layout_width="match_parent"
+                android:text="@string/text_btn_projects"
+                style="@style/ButtonTheme"/>
+            <Button
+                android:id="@+id/button_contact"
+                android:layout_width="match_parent"
+                android:text="@string/text_btn_contact"
+                style="@style/ButtonTheme"/>
+        </LinearLayout>
+
+        <!-- Defines content display -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_contentBackground">
+
+            <TextView
+                android:id="@+id/textview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                style="@style/ContentTheme"
+                />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

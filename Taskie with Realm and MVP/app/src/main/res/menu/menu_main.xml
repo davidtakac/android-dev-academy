@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_menu_sortByPriority"
+        android:title="@string/string_menu_sortByPriority"
+        android:checkable="true"
+        android:checked="false" />
+
+    <item android:id="@+id/itemcheckable_menu_showNotCompleted"
+        android:title="@string/string_menu_showCompleted"
+        android:checkable="true"
+        android:checked="true" />
+
+    <item android:id="@+id/item_menu_priorityFilterMenu"
+        android:title="@string/string_menu_priorityFilter">
+
+        <menu>
+            <group android:id="@+id/group_priorityFilterMenu_filters"
+                android:checkableBehavior="single">
+
+                <item android:id="@+id/item_priorityFilterMenu_all"
+                    android:title="@string/string_priorityFilterMenu_all"
+                    android:checked="true"/>
+                <item android:id="@+id/item_priorityFilterMenu_low"
+                    android:title="@string/string_priorityFilterMenu_low"/>
+                <item android:id="@+id/item_priorityFilterMenu_med"
+                    android:title="@string/string_priorityFilterMenu_med"/>
+                <item android:id="@+id/item_priorityFilterMenu_high"
+                    android:title="@string/string_priorityFilterMenu_high"/>
+
+            </group>
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_pastelBlue">#AEC6CF</color>
+    <color name="color_darkspringGreen">#177245</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_fernGreen">#71bc78</color>
+    <color name="color_darkslateGray">#2f4f4f</color>
+
+    <color name="color_buttonBackground">@color/color_darkslateGray</color>
+    <color name="color_header">@color/color_darkspringGreen</color>
+    <color name="color_profilepicBorder">@color/color_white</color>
+    <color name="color_buttonClicked">@color/color_pastelBlue</color>
+    <color name="color_buttonNotClicked">@color/color_darkslateGray</color>
+    <color name="color_menuBackground">@color/color_fernGreen</color>
+    <color name="color_contentBackground">@color/color_pastelBlue</color>
+</resources>

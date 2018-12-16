@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_introduction"
+        style="@style/NormalTextTheme"/>
+
+    <EditText
+        android:id="@+id/edittext_firstnum"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        style="@style/NormalEditTextTheme"
+        />
+
+    <EditText
+        android:id="@+id/edittext_secondnum"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        style="@style/NormalEditTextTheme"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount='2'
+        android:columnCount='4'>
+
+        <Button
+            android:id="@+id/button_sum"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            style="@style/ButtonTheme"
+            android:text="@string/sum_text"
+            />
+        <Button
+            android:id="@+id/button_subtract"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            style="@style/ButtonTheme"
+            android:text="@string/subtract_text"
+            />
+        <Button
+            android:id="@+id/button_divide"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            style="@style/ButtonTheme"
+            android:text="@string/divide_text"
+            />
+        <Button
+            android:id="@+id/button_multiply"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            style="@style/ButtonTheme"
+            android:text="@string/multiply_text"
+            />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sizeTopMargin"
+        android:gravity="bottom"
+        style="@style/ResultTheme"
+        />
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/imageview_task_priority"
+        android:layout_width="@dimen/task_taskPriority_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/textview_task_category"
+        android:src="@color/taskPriority_Unknown"
+
+        android:clickable="true"
+        android:focusable="false" />
+    <TextView
+        android:id="@+id/textview_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/togglebtn_task_completed"
+        android:layout_toStartOf="@id/togglebtn_task_completed"
+        android:textSize="@dimen/textSize_large"
+        android:textStyle="bold"/>
+    <ToggleButton
+        android:id="@+id/togglebtn_task_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imageview_task_priority"
+        android:layout_toStartOf="@id/imageview_task_priority"
+        android:layout_above="@id/textview_task_description"
+        android:textSize="@dimen/textSize_small"
+
+        android:textOn="@string/string_togglebtn_completed"
+        android:textOff="@string/string_togglebtn_notcompleted"
+        />
+
+    <TextView
+        android:id="@+id/textview_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imageview_task_priority"
+        android:layout_toStartOf="@id/imageview_task_priority"
+        android:layout_below="@id/textview_task_title"
+        android:textSize="@dimen/textSize_normal"/>
+
+    <TextView
+        android:id="@+id/textview_task_deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imageview_task_priority"
+        android:layout_toStartOf="@id/imageview_task_priority"
+        android:layout_below="@id/textview_task_description"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/textSize_small"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/textview_task_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imageview_task_priority"
+        android:layout_toStartOf="@id/imageview_task_priority"
+        android:layout_below="@id/textview_task_deadline"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/textSize_small"
+        />
+
+</RelativeLayout>

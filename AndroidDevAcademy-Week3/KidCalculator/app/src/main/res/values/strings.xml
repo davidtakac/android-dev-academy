@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kid Calculator</string>
+    <string name="app_introduction">Enter two numbers and the desired operation. The result is displayed below.</string>
+    <string name="result_noinputyet">Hit me!</string>
+    <string name="sum_text">+</string>
+    <string name="subtract_text">-</string>
+    <string name="divide_text">/</string>
+    <string name="multiply_text">X</string>
+    <string name="edittext_emptyerror">Empty field! Enter a number.</string>
+    <string name="edittext_dividebyzeroerror">You can\'t divide by zero.</string>
+
+</resources>
